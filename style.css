@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=BBH+Sans+Bogle&display=swap");
+* {
+  /* box-sizing: border-box; */
+  margin: 0;
+  padding: 0;
+  font-family: "BBH Sans Bogle", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  gap: 20px;
+}
+
+p {
+  font-size: 100px;
+}
+/* Input */
+
+.field {
+  display: inline-block;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial;
+}
+
+.label-text {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 24px;
+  font-weight: 400;
+  color: #333;
+}
+
+.input-text {
+  width: 280px;
+  padding: 10px 12px;
+  font-size: 16px;
+  border: 1px solid #cfcfcf;
+  border-radius: 8px;
+  outline: none;
+}
+
+.input-text:focus {
+  border-color: #6aa9ff;
+  box-shadow: 0 4px 14px rgba(106, 169, 255, 0.18);
+}
+
+/* placeholder más suave */
+.input-text::placeholder {
+  color: #9b9b9b;
+}
+
+/* Boton */
+
+.btn-container {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-send {
+  background-color: #ffffff; /* azul principal */
+  color: black;
+  border: none;
+  padding: 12px 28px;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  letter-spacing: 5px;
+}
+
+.btn-clear {
+  background-color: #ffffff; /* azul principal */
+  color: red;
+  border: none;
+  padding: 12px 28px;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  letter-spacing: 5px;
+}
+
+h1 {
+  font-size: 20rem;
+}
