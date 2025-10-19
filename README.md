@@ -2,7 +2,7 @@
 
 ## Captura de pantalla
 
-![Captura de la app](Screenshot.png/captura.png)
+![Captura de la app](./Screenshot.png)
 
 ## Descripcion
 
